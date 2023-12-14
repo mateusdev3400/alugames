@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluGames</title>
+    <link rel="shortcut icon" href="images/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body class="layout">
+    <!-- HEADER -->
+    <header class="header">
+        <img src="images/logo.svg" alt="Logo do AluraGames" class="header__image"/>
+    </header>
+    <!-- HEADER -->
+
+    <!-- MAIN -->
+    <main class="container">
+        <section class="games">
+            <h2 class="games__title">Aluguel de Jogos</h2>
+
+            <ul class="games__menu-list">
+                <li class="games__menu-item" id="game-1">
+                    <img src="images/games/monopoly.png" alt="Logo do Jogo Monopoly" class="games__menu-image"/>
+                    <h2 class="games__menu-title">Monopoly</h2>
+                    <button onclick="checkRent(1)" class="games__menu-button games__button-blue">Alugar</button>
+                </li>
+
+                <li class="games__menu-item" id="game-2">
+                    <img src="images/games/ticket_to_ride.png" alt="Logo do Jogo Ticket to Ride" class="games__menu-image"/>
+                    <h2 class="games__menu-title">Ticket to Ride</h2>
+                    <button onclick="checkRent(2)" class="games__menu-button games__button-blue">Alugar</button>
+                </li>
+
+                <li class="games__menu-item games__give-back" id="game-3">
+                    <img src="images/games/takenoko.png" alt="Logo do Jogo Takenoko" class="games__menu-image"/>
+                    <h2 class="games__menu-title">Takenoko</h2>
+                    <button onclick="checkRent(3)" class="games__menu-button games__button-black">Devolver</button>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <!-- MAIN -->
+
+    <!-- SCRIPTS -->
+    <script src="js/app.js" defer></script>
+    <!-- SCRIPTS -->
+</body>
+</html>
