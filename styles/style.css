@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Inter&display=swap');
+
+@import url('./games/games.css');
+
+:root {
+    --black-color: #01080E;
+    --blue-color: #1875E8;
+    --gray-color: #2D2D2D;
+    --white-color: #FFFFFF;
+
+    --chakra-petch-font: "Chakra Petch", sans-serif;
+    --inter-font: "Inter", sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, var(--black-color) 0%, var(--black-color) 35%, var(--blue-color) 100%);
+    color: var(--white-color);
+}
+
+.layout {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
+    padding: 2em 0;
+}
